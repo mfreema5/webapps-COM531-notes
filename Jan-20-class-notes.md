@@ -64,6 +64,12 @@ How do you say "Foo" in Ruby?
 
 Objects can inherit from each other.
 
+----
+
+my_num.chomp returns chomped variable
+
+my_num.chomp! reassigns chomped variable to variable
+
 
 
 
