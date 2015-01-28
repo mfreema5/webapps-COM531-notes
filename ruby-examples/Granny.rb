@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 while true
   puts "Say to Grandma..."
   said = gets.chomp
