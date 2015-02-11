@@ -1,17 +1,12 @@
+Feb 10 &ndash; Class notes
 
-
-
-
-
-
+----
 
 Fiddling git-config: set editor on OS X with TextWrangler `"edit --wait --resume"`
 
-
-
+----
 
 `$cat Gemfile`
-
 
 `gem 'uglifier', '>= 1.3.0'`
 
