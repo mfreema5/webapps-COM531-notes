@@ -20,7 +20,7 @@ Uses any 5-release; no 4, no 6
 
 add:
 
-```
+```ruby
 # Use HAML for views
 gem 'haml-rails', '~> 0.8'
 ```
@@ -100,8 +100,38 @@ evaluates the Ruby expression
 evaluates teh Ruby expression, and display the result
 
 
+----
+----
 
 
+
+Table = Class
+
+Row = Instance
+
+Column = Method
+
+  E.g., in `@person.age = 52` the Ruby method is `age`, but conceptually `age` is a column.  `@person` is the Ruby instance, but conceptually is a record.
+
+----
+----
+
+One-liner to display rolling output of commands entered.
+
+`while true ; do ; if [ "$(sha1sum ~/.zsh_history)" != "${zsh_sum}" ] ; then ; tail -n1 ~/.zsh_history | cut -d\; -f 2- ; fi ; zsh_sum=$(sha1sum ~/.zsh_history) ; sleep 3 ; done`
+
+As a shell script:
+
+```bash
+while true
+do 
+  if [ "$(sha1sum ~/.zsh_history)" != "${zsh_sum}" ] ; then 
+    tail -n1 ~/.zsh_history | cut -d\; -f 2-
+  fi
+  zsh_sum=$(sha1sum ~/.zsh_history)
+  sleep 5
+done
+```
 
 
 
