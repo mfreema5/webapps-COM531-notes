@@ -1,4 +1,4 @@
-Feb 10 &ndash; Class notes
+#Feb 10 &ndash; Class notes
 
 ----
 
