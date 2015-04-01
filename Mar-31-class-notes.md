@@ -54,7 +54,7 @@ Set in .profile
 export TOP_SECRET="OMG--so secret."
 ```
 
-In `irb:
+In `irb`:
 
 ```
 ENV['TOP_SECRET']
